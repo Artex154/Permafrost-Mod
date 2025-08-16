@@ -3,13 +3,13 @@
 	"id": "permafrost",
 	"version": "${version}",
 	"name": "Permafrost",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is the official mod of the Permafrost SMP.",
 	"authors": [
-		"Me!"
+		"Artex54", "The IceAddicts Hypixel guild"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Artex154/Permafrost-Mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/permafrost/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"be.artex.permafrost.PermafrostDataGenerator"
+		],
+		"client": [
+			"be.artex.permafrost.PermafrostClient"
 		]
 	},
 	"mixins": [
