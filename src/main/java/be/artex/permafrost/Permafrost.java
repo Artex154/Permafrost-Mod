@@ -1,6 +1,7 @@
 package be.artex.permafrost;
 
 import be.artex.permafrost.item.ModItems;
+import be.artex.permafrost.particles.ModParticles;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class Permafrost implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModParticles.registerModParticles();
 	}
 }
