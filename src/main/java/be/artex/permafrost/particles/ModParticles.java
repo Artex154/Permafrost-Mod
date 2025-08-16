@@ -24,6 +24,6 @@ public class ModParticles {
     public static void registerModParticlesClient() {
         ParticleFactoryRegistry instance =  ParticleFactoryRegistry.getInstance();
 
-        instance.register(ICE_PARTICLE, FireSmokeParticle.Factory::new);
+        instance.register(ICE_PARTICLE, EndRodParticle.Factory::new);
     }
 }
