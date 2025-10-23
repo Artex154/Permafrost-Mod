@@ -1,0 +1,46 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "permafrost:item/glacial_scythe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-23, -90, 0],
+      "translation": [0, 5.75, 4.5],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-23, 90, 0],
+      "translation": [0, 5.75, 4.5],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "firstperson_righthand": {
+      "rotation": [-23, -90, 0],
+      "translation": [0, 5.75, 4.5],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-23, 90, 0],
+      "translation": [0, 5.75, 4.5],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "ground": {
+      "translation": [0, 5, 0],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "head": {
+      "rotation": [-90, -90, 0],
+      "translation": [0, 9.25, -9.25],
+      "scale": [1.2, 1.2, 1.2]
+    }
+  },
+  "groups": [
+    {
+      "name": "frozen_scythe",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": []
+    }
+  ]
+}

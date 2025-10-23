@@ -1,4 +1,4 @@
-package be.artex.permafrost.particles;
+package be.artex.permafrost.particle;
 
 import be.artex.permafrost.Permafrost;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
