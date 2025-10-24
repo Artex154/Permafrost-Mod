@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "permafrost:block/packed_ice_bricks"
+    }
+  }
+}
