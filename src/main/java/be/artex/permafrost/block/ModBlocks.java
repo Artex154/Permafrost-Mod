@@ -16,6 +16,7 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final Block PACKED_ICE_BRICKS = registerBlock("packed_ice_bricks", Block::new, AbstractBlock.Settings.copy(Blocks.PACKED_ICE));
+    public static final Block POLISHED_PACKED_ICE = registerBlock("polished_packed_ice", Block::new, AbstractBlock.Settings.copy(Blocks.PACKED_ICE));
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings) {
         RegistryKey<Block> blockKey = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Permafrost.MOD_ID, name));
