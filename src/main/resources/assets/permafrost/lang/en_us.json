@@ -4,7 +4,8 @@
 
   "item.permafrost.packed_ice_bricks": "Packed Ice Bricks",
   "item.permafrost.polished_packed_ice": "Polished Packed Ice",
-  "item.permafrost.black_ice": "Black IceA",
+  "item.permafrost.black_ice": "Black Ice",
+  "item.permafrost.cut_packed_ice": "Cut Packed Ice",
 
   "death.attack.scythe": "%1$s has died from a scythe."
 }

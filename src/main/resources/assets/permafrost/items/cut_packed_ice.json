@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "permafrost:block/cut_packed_ice"
+  }
+}

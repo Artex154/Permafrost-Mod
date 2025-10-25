@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "permafrost:block/cut_packed_ice"
+    }
+  }
+}

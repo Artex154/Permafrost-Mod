@@ -20,6 +20,7 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block PACKED_ICE_BRICKS = registerBlock("packed_ice_bricks", Block::new, AbstractBlock.Settings.copy(Blocks.PACKED_ICE));
     public static final Block POLISHED_PACKED_ICE = registerBlock("polished_packed_ice", Block::new, AbstractBlock.Settings.copy(Blocks.PACKED_ICE));
+    public static final Block CUT_PACKED_ICE = registerBlock("cut_packed_ice", Block::new, AbstractBlock.Settings.copy(Blocks.PACKED_ICE));
     public static final Block BLACK_ICE = registerBlock("black_ice", Block::new, AbstractBlock.Settings.create()
             .mapColor(MapColor.PALE_PURPLE)
             .instrument(NoteBlockInstrument.CHIME)
