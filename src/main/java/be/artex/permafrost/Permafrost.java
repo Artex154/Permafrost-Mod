@@ -1,6 +1,5 @@
 package be.artex.permafrost;
 
-import be.artex.permafrost.block.ModBlocks;
 import be.artex.permafrost.entity.ModEntityTypes;
 import be.artex.permafrost.item.ModItems;
 import be.artex.permafrost.particle.ModParticles;
@@ -16,7 +15,6 @@ public class Permafrost implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
 		ModParticles.registerModParticles();
 		ModEntityTypes.registerModEntityTypes();
 	}
